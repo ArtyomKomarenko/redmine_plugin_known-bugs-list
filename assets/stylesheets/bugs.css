@@ -1,0 +1,30 @@
+.bugs-list {
+    width: 80%;
+    margin: 10px auto 20px;
+}
+.bugs-list h3  {
+    background-color: lightgray;
+    padding-left: 20px;
+}
+.bugs-list table {
+    width: 100%;
+    background-color: rgba(192, 173, 195, 0.31);
+    border-collapse: collapse;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+.bugs-list tr {
+    height: 64px;
+}
+.bugs-list td:first-child {
+    width: 200px;
+    text-align: center;
+    font-size: 16px;
+}
+.bugs-list td {
+    border: 1px solid black;
+}
+.bugs-list table a {
+    padding-left: 12px;
+    line-height: 24px;
+}

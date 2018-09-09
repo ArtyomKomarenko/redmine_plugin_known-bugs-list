@@ -1,0 +1,32 @@
+<h2>Настройки</h2>
+
+<p>
+  <label for="settings_projects">ID проектов (через запятую)</label>
+  <input
+    type="text"
+    id="settings_projects"
+    value="<%= settings[:projects] %>"
+    name="settings[projects]"
+
+  >
+
+</p>
+<p>
+  <label for="settings_trackers">ID трекеров (через запятую)</label>
+  <input
+    type="text"
+    id="settings_trackers"
+    value="<%= settings[:trackers] %>"
+    name="settings[trackers]"
+  >
+</p>
+
+<p>
+  <label for="settings_statuses">ID статусов (через запятую)</label>
+  <input
+    type="text"
+    id="settings_statuses"
+    value="<%= settings[:statuses] %>"
+    name="settings[statuses]"
+  >
+</p>

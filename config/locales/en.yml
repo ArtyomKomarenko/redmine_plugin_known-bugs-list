@@ -1,0 +1,4 @@
+# English strings go here for Rails i18n
+en:
+  project_module_known_bugs_list: "Known Bugs List"
+  permission_view_bugs: "Просмотр"

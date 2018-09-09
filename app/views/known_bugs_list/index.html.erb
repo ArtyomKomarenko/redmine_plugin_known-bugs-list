@@ -1,0 +1,32 @@
+<h2>Список известных ошибок</h2>
+
+<% @issues_list.each do |project|  %>
+<div class="bugs-list">
+  <h3>
+    <%= project[:name] %>
+  </h3>
+  <table>
+    <% if project[:pages].empty? %>
+    <tr>
+      <td>В данном проекте нет багов О_О</td>
+    </tr>
+    <% else %>
+      <% project[:pages].each do |page| %>
+      <tr>
+        <td>
+          <%= page[:name]%>
+        </td>
+        <td>
+        <% page[:bugs].each do |bug|  %>
+            <%= link_to(bug[:subject], issue_path(bug[:id])) %><br>
+        <% end %>
+        </td>
+      </tr>
+      <% end %>
+    <% end %>
+  </table>
+</div>
+<% end %>
+<% content_for :header_tags do %>
+  <%= stylesheet_link_tag 'bugs', plugin: 'known_bugs_list' %>
+<% end %>

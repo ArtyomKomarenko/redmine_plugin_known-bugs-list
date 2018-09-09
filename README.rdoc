@@ -1,0 +1,13 @@
+= known_bugs_list
+
+Plugin for viewing list of opened bugs in each project which are specified in settings.
+Lists of bugs are grouped by pages. Pages are extracted from subject which should be written in following format: [Page] Subject
+Amounts of pages, which can be specified, is not resticted, you can specify any amount of [][][].
+
+Before using need to set IDs of projects, trackers and issues in plugin settings.
+Following API request can help you:
+1) GET /projects.xml
+2) GET /issue_statuses.xml
+3) GET /trackers.xml
+
+All request need perform with specifying ?key= parameter for authorization. Value of this parameter you can get on your profile page.
