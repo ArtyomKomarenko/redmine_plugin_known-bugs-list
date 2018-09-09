@@ -1,4 +1,4 @@
-= known_bugs_list
+= Known Bugs List
 
 Plugin for viewing list of opened bugs in each project which are specified in settings.
 Lists of bugs are grouped by pages. Pages are extracted from subject which should be written in following format: [Page] Subject
