@@ -6,8 +6,8 @@ Amounts of pages, which can be specified, is not resticted, you can specify any 
 
 Before using need to set IDs of projects, trackers and issues in plugin settings.
 Following API request can help you:
-1) GET /projects.xml
-2) GET /issue_statuses.xml
-3) GET /trackers.xml
+- GET /projects.xml
+- GET /issue_statuses.xml
+- GET /trackers.xml
 
-All request need perform with specifying ?key= parameter for authorization. Value of this parameter you can get on your profile page.
+All requests need perform with specifying ?key= parameter for authorization. Value of this parameter you can get on your profile page.
