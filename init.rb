@@ -13,6 +13,6 @@ Redmine::Plugin.register :known_bugs_list do
   settings default: {
       trackers: '6,10,24,25', #critical bug, bug, bug mob, critical bug mob
       projects: '110,111,112,113', #mobile, android, ios, курьер
-      statuses: '17, 19, 47', #dev new, dev pause, backlog
+      statuses: '17,19,47', #dev new, dev pause, backlog
   }, partial: 'settings/known_bugs_list_settings'
 end
